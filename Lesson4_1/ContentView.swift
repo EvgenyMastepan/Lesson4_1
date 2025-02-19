@@ -54,7 +54,7 @@ struct ContentView: View {
                     HStack(spacing: 20){
                         HStack{
                             Image(systemName: "person.fill.viewfinder")
-                                .font(.system(size: 22))
+                                .font(.system(size: 20))
                                 .foregroundStyle(.blue)
                             Text("User Name")
                                 .font(.system(size: 24, weight: .semibold))
