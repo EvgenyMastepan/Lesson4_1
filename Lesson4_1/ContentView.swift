@@ -21,7 +21,7 @@ struct ContentView: View {
                         .clipped()
                         .cornerRadius(15)
                     Text("Таким образом, новая модель говорит о возможностях экспериментов.")
-                        .foregroundColor(.white)
+                        .foregroundStyle(.white)
                         .font(.system(size: 20, weight: .regular))
                         .shadow(color: .blue, radius: 2)
                         .padding(.horizontal, 10)
@@ -81,7 +81,7 @@ struct ContentView: View {
                         //Кнопичко
                     } label: {
                         Text("настроить профиль")
-                            .foregroundColor(.black)
+                            .foregroundStyle(.black)
                     }
                     
             }
